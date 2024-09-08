@@ -1,0 +1,157 @@
+/* En esta hoja de estilo se agrega estilos que se usaran mas 
+de 1 vez como: titulos, parrafo, enlaces, botones y grillas */
+
+/* Importar la tipografía de https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Agregar variables personalizados */
+:root {
+    /* var color */
+    --colorrosa: #F1CDD7;
+    --colorceleste: #DCE7EF;
+    --colormarron: #A17878;
+    --colornegro: #000000;
+    --colorrosaO: #E1ADBB;
+    --colorblanco: #f2f2f2;
+    /* var font-family */
+    --fontnunito: "Nunito", sans-serif;
+}
+
+/* Rootear la página */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: var(--fontnunito);
+    font-size: 17px;
+}
+
+/* Contenedor */
+.container {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 40px 0;
+}
+
+
+
+/* TÍTULOS */
+
+/* Grosor y Mayus */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+}
+
+/* Tamaño */
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font: size 2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* BOTONES/
+/* Rootear Estilo */
+button {
+    cursor: pointer;
+    border: none;
+    padding: 40px 40px;
+    border-radius: 50px;
+    background-color: #E1ADBB;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Boton 1 - Rosa */
+.btn1 {
+    background-color: var(--colorrosa);
+    color: var(--colornegro);
+}
+
+.btn1:hover {
+    background-color: var(--colorrosaO);
+    color: var(--colorblanco);
+}
+
+button {
+    padding: 40px 40px;
+    background-color: #E1ADBB;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Boton 2 - negro */
+.btn2 {
+    background-color: var(--colorrosaO);
+    color: var(--colornegro);
+    padding: 20px 40px;
+}
+
+.btn2:hover {
+    background-color: var(--colornegro);
+    color: var(--colorblanco);
+}
+
+.grid4 {
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.grid42 {
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.foto3 {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 3fr;
+}
+
+.testimonio1 {
+    padding: 50px;
+}
+
+.testimonio2 {
+    padding: 50px;
+}

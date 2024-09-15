@@ -13,6 +13,7 @@ de 1 vez como: titulos, parrafo, enlaces, botones y grillas */
     --colornegro: #000000;
     --colorrosaO: #E1ADBB;
     --colorblanco: #f2f2f2;
+    --colorazul: #B8C9EE;
     /* var font-family */
     --fontnunito: "Nunito", sans-serif;
 }
@@ -125,11 +126,19 @@ button {
     color: var(--colorblanco);
 }
 
+.btn3 {
+    padding: 40px 40px;
+    background-color: var(--colorceleste);
+    font-size: 1.25rem;
+    font-family: 500;
+}
+
 .grid4 {
     gap: 50px;
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+
 .grid42 {
     gap: 50px;
     display: grid;
@@ -154,4 +163,130 @@ button {
 
 .testimonio2 {
     padding: 50px;
+}
+
+.testimonio3 {
+    padding: 50px;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.misiontexto,
+.valorestexto {
+    display: inline-block;
+    width: 45%;
+    margin: 30px;
+    padding: 20px;
+    background-color: var(--colorceleste);
+}
+
+form input,
+form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacto {
+    background-color: #d6cce9;
+    align-items: center;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,
+form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.columna h2 {
+    margin-top: 0;
+}
+
+.columna p {
+    margin-bottom: 20px;
+}
+
+#contacto {
+    background-color: var(--colorceleste);
+}
+
+.overlay::before {
+    content: "Texto encima de la imagen";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.position {
+    background-color: #d3d3d3
+}
+
+.contenedor {
+
+
+    position: relative;
+
+
+    .texto {
+        color: #ffffff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+
+}
+
+.ubicacion {
+    background-color: var(--colorazul);
+    display: flex;
+    align-items: center;
 }
